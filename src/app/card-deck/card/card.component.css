@@ -2,8 +2,9 @@ main {
     
     border-radius: 10px;
     border-style: groove;
-    height: 100px;
+    height: 100%;
     width: 150px;
+    padding: 10px;
 } 
 
 
@@ -14,4 +15,3 @@ img {
     display: block;
 }
 
-/* background: linear-gradient(132deg, {{ card.bgColor1 }} 0.00%, {{ card.bgColor2 }} 50.15%, {{ card.bgColor1 }} 100.00%) */

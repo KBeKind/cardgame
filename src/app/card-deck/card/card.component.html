@@ -1,8 +1,10 @@
 <main [style]="card.background">
     <div class="card-body" >
         <h5 class="card-title">{{ card.name }}</h5>
-        <img src = "assets\Images\card-images\ice-aura.jpg" alt="{{ card.imageAlt }}">
-        
+
+        <!-- <img [src]="'path/to/image.png'" alt="Image"> -->
+        <img [src]="card.imageSrc" [alt]="card.imageAlt">
+
     </div>
     
 </main>

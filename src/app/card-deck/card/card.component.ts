@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { CardDeckComponent } from '../card-deck.component';
 
 @Component({
   selector: 'app-card',
@@ -9,7 +8,5 @@ import { CardDeckComponent } from '../card-deck.component';
 export class CardComponent {
 
   @Input() card: any;
-
-
 
 }
