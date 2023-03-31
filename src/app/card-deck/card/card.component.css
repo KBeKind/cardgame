@@ -1,0 +1,17 @@
+main {
+    
+    border-radius: 10px;
+    border-style: groove;
+    height: 100px;
+    width: 150px;
+} 
+
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+/* background: linear-gradient(132deg, {{ card.bgColor1 }} 0.00%, {{ card.bgColor2 }} 50.15%, {{ card.bgColor1 }} 100.00%) */
