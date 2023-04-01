@@ -1,7 +1,8 @@
-#player-hand-container {
+#deck-container {
     border-radius: 10px;
     background-color: #ccc;
-    width: 600px;
-    height: 100px;
-  }
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
   

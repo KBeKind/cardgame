@@ -1,6 +1,15 @@
 .card-deck{
 display: grid;
-grid-template-columns: 200px 200px 200px;
-grid-gap: 10px;
+grid-template-columns: 600px 50px 600px;
+row-gap: 35px;
 padding: 10px;
+}
+.card-group{
+    padding: 10px;
+    padding-bottom: 20px;
+    height: 100%;
+    width: 100%;
+    background-color: cadetblue;
+    border-radius: 5px;
+
 }

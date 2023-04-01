@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { PlayerAreaComponent } from './player-area/player-area.component';
 import { OpponentAreaComponent } from './opponent-area/opponent-area.component';
 import { BoardAreaComponent } from './board-area/board-area.component';
-import { PlayerHandComponent } from './player-area/player-hand/player-hand.component';
 import { OpponentHandComponent } from './opponent-area/opponent-hand/opponent-hand.component';
 import { PlayerPlayedCardsComponent } from './board-area/player-played-cards/player-played-cards.component';
 import { OpponentPlayedCardsComponent } from './board-area/opponent-played-cards/opponent-played-cards.component';
@@ -15,6 +14,8 @@ import { PlayerCurrentCardComponent } from './board-area/current-card-sidebar/pl
 import { CurrentCardSidebarComponent } from './board-area/current-card-sidebar/current-card-sidebar.component';
 import { CardDeckComponent } from './card-deck/card-deck.component';
 import { CardComponent } from './card-deck/card/card.component';
+import { AttackDeckComponent } from './card-deck/attack-deck/attack-deck.component';
+import { DefenseDeckComponent } from './card-deck/defense-deck/defense-deck.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,6 @@ import { CardComponent } from './card-deck/card/card.component';
     PlayerAreaComponent,
     OpponentAreaComponent,
     BoardAreaComponent,
-    PlayerHandComponent,
     OpponentHandComponent,
     PlayerPlayedCardsComponent,
     OpponentPlayedCardsComponent,
@@ -31,7 +31,9 @@ import { CardComponent } from './card-deck/card/card.component';
     PlayerCurrentCardComponent,
     CurrentCardSidebarComponent,
     CardDeckComponent,
-    CardComponent
+    CardComponent,
+    AttackDeckComponent,
+    DefenseDeckComponent
   ],
   imports: [
     BrowserModule
