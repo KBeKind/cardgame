@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PlayerHandComponent } from './player-hand.component';
+import { DefenseDeckComponent } from './defense-deck.component';
 
-describe('PlayerHandComponent', () => {
-  let component: PlayerHandComponent;
-  let fixture: ComponentFixture<PlayerHandComponent>;
+describe('DefenseDeckComponent', () => {
+  let component: DefenseDeckComponent;
+  let fixture: ComponentFixture<DefenseDeckComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PlayerHandComponent ]
+      declarations: [ DefenseDeckComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PlayerHandComponent);
+    fixture = TestBed.createComponent(DefenseDeckComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
