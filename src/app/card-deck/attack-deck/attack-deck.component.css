@@ -3,5 +3,9 @@
     grid-template-columns: 200px 200px 200px;
     row-gap: 35px;
     padding: 10px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
     }
     

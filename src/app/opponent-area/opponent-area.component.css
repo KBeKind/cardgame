@@ -1,7 +1,12 @@
-#opponent-hand-container {
+#opponent-area-container {
     border-radius: 10px;
     background-color: #ccc;
-    width: 200px;
-    height: 100px;
+    width: auto;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
   }
   
+
